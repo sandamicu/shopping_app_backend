@@ -1,9 +1,9 @@
 package com.grocerystore.grocerystore.repos
 
-import com.grocerystore.grocerystore.models.Aisle
+import com.grocerystore.grocerystore.models.StoreMapping
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface AisleRepository : JpaRepository<Aisle, Int> {
+interface StoreMappingRepository: JpaRepository<StoreMapping, Int> {
 }

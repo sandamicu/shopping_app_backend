@@ -11,8 +11,9 @@ import javax.validation.constraints.NotBlank
 data class Aisle(
         @Id @GeneratedValue val id : Int ,
         @get: NotBlank val name : String ,
-        @get: NotBlank val row : Int ,
-        @get: NotBlank val column: Int
+        @get: NotBlank val icon : String
+//        @get: NotBlank val row : Int ,
+//        @get: NotBlank val column: Int
 ){}
 
 
